@@ -52,7 +52,8 @@ const QuoteDetail = () => {
     return <p className="centered">{error}</p>;
   }
 
-  console.log(loadedQuote);
+  // console.log(loadedQuote);
+
   if (!loadedQuote) {
     return <p className="centered">No quote found</p>;
   }
